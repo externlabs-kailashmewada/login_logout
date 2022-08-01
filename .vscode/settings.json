@@ -1,0 +1,5 @@
+{
+  "editor.formatOnSave": true,
+  "code-runner.saveFileBeforeRun": true,
+  "files.autoSave": "onFocusChange"
+}

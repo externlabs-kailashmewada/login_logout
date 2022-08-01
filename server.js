@@ -8,6 +8,8 @@ app.use(express.json());
 const routes = require("./api/routes.js");
 app.use('/api',routes);
 
+app.use("/", routes);
+
 const { API_PORT } = process.env;
 const port = process.env.PORT || API_PORT;
 
