@@ -27,6 +27,14 @@ router
     Userregister.register(req, res);
 });
 
+router
+.route('/')
+.get(
+    (req, res)=>{
+        console.log("This is updated by me, for learning purpose");
+    }
+)
+
 
 
 
